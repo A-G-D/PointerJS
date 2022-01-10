@@ -7,19 +7,19 @@
 ## Install
 
 ```bash
-npm install --save pointerjs
+npm install --save @pointerjs/pointer
 ```
 
 or
 
 ```bash
-yarn add pointerjs
+yarn add @pointerjs/pointer
 ```
 
 ## Usage
 
 ```ts
-import { Pointer } from 'pointerjs'
+import { Pointer } from '@pointerjs/pointer'
 
 const canvas = querySelector('#main-canvas')
 const pointer = new Pointer(canvas)

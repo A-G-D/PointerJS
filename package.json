@@ -1,5 +1,5 @@
 {
-  "name": "pointerjs",
+  "name": "@pointerjs/pointer",
   "version": "0.1.0",
   "description": "Pointer library for javascript/typescript",
   "main": "dist/index.js",
@@ -13,7 +13,7 @@
   "repository": "github.com/A-G-D/pointer.js",
   "author": "AGD <aloeverdulay@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/A-G-D/pointer.js",
+  "homepage": "https://github.com/A-G-D/pointerjs-pointer",
   "devDependencies": {
     "microbundle": "^0.14.2",
     "ts-loader": "^9.2.6",
