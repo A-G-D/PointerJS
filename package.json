@@ -1,5 +1,5 @@
 {
-  "name": "pointer.js",
+  "name": "pointerjs",
   "version": "0.1.0",
   "description": "Pointer library for javascript/typescript",
   "main": "dist/index.js",
