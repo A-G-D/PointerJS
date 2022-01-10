@@ -1,4 +1,4 @@
-# Pointer.js
+# PointerJS
 
 > Javascript library that provides convenient and common API for handling events of different types of pointer devices
 
@@ -7,19 +7,25 @@
 ## Install
 
 ```bash
-npm install --save pointer.js
+npm install --save pointerjs
 ```
 
 or
 
 ```bash
-yarn add pointer.js
+yarn add pointerjs
 ```
 
 ## Usage
 
 ```ts
+import { Pointer } from 'pointerjs'
 
+const canvas = querySelector('#main-canvas')
+const pointer = new Pointer(canvas)
+pointer.addMovementHandler((e) => {
+  console.log(`Pointer( ${e.pageX}, ${e.pageY} )`)
+})
 ```
 
 ## Contributing
